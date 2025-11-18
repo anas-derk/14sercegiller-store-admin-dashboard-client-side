@@ -268,7 +268,8 @@ export default function AddNewProduct() {
                         setSearchedCategories([]);
                         setSelectedCategories([]);
                         setSearchedCountry("");
-                        setFilteredCountryList([]);
+                        setCountryList(allCountries);
+                        setFilteredCountryList(allCountries);
                         setSelectedCountriesList([]);
                         productImageFileElementRef.current.value = "";
                         threeDProductImageFileElementRef.current.value = "";
